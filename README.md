@@ -1,4 +1,5 @@
-# Intel-Edge-AI-Fundamentals-with-OpenVINO
+# Intel-Edge-AI-Fundamentals-with-OpenVINO&trade;
+
 
 This repository contains jupyter-notebooks assosiated with this course. 
 
