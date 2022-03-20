@@ -14,7 +14,7 @@ def handle_pose(output, input_shape):
     out_heatmap = np.zeros([heatmaps.shape[1], input_shape[0], input_shape[1]])
     # Iterate through and re-size each heatmap
     for h in range(len(heatmaps[0])):
-        out_heatmap[h] = cv2.resize(heatmaps[0][h], input_shape[0:2][::-1]) #CxWXH
+        out_heatmap[h] = cv2.resize(heatmaps[0][h], input_shape[0:2][::-1]) #images_layers(19)xWXH
 
     return out_heatmap
 
@@ -29,7 +29,7 @@ def handle_text(output, input_shape):
     # TODO 2: Resize this output back to the size of the input
     out_text = np.empty([text_classes.shape[1], input_shape[0], input_shape[1]])
     for t in range(len(text_classes[0])):
-        out_text[t] = cv2.resize(text_classes[0][t], input_shape[0:2][::-1]) #CxWXH
+        out_text[t] = cv2.resize(text_classes[0][t], input_shape[0:2][::-1]) #images_layers(2)xWXH
 
     return out_text
 
