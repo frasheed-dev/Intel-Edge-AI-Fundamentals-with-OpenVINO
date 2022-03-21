@@ -1,6 +1,6 @@
 # Intel-Edge-AI-Fundamentals-with-OpenVINO&trade;
 
-This repository contains my solution for the excercises in this course as jupyter-notebooks. 
+This repository contains my solution for the excercises in this course as jupyter-notebooks. The excercises have most of the code already written only few sections (where #TODO comment is written in the files) have been implemented   
 
 ![alt text](completed_edge_ai_fundamentals.jpg)
 
